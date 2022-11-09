@@ -26,6 +26,6 @@ The theme is released under the `Apache License 2.0`, for more information read 
 
 ## 🔧 Modified Points
 
-すべての改変点は [Commit](https://github.com/Gattxxa/hugo-theme-fuji-customized/commits/master) を閲覧してください。  
+すべての改変点は [Commits](https://github.com/Gattxxa/hugo-theme-fuji-customized/commits/master) を閲覧してください。  
 
 (´･ᴗ･\`) Thank You ♡
