@@ -82,17 +82,17 @@ body[data-theme='dark'] {
   }
 
   a:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
   }
 }
 
 @mixin link-2 {
   a {
-    color: var(--color-secondary);
+    color: var(--color-primary);
   }
 
   a:hover {
-    color: var(--color-focus);
+    color: var(--color-primary);
   }
 }
 

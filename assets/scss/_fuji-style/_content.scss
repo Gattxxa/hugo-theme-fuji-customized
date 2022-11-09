@@ -15,6 +15,9 @@
 
 .post-title {
   font-size: $font-size-1;
+  @media screen and (max-width: $width-md) {
+    font-size: 1.25rem;
+  }
 }
 
 .post-meta {
@@ -22,6 +25,9 @@
   align-items: center;
   margin: 0.5rem 0.1rem 1rem 0.1rem; // little space
   flex-wrap: wrap;
+  @media screen and (max-width: $width-md) {
+    font-size: 0.8rem;
+  }
 
   span {
     display: flex;
@@ -35,6 +41,9 @@
 
 .post-summary {
   margin: 0 0.1rem; // little space
+  @media screen and (max-width: $width-md) {
+    font-size: 0.8rem;
+  }
 
   p:last-child {
     margin-bottom: 0; // remove margin-bottom of last para in summary
@@ -63,6 +72,9 @@
 
   span:not(:last-child) {
     padding-right: 1.5rem;
+  }
+  @media screen and (max-width: $width-md) {
+    font-size: 0.75rem;
   }
 }
 
@@ -98,6 +110,9 @@ article {
 
   .post-content {
     margin: 1.25rem 0.1rem 0 0.1rem;
+    @media screen and (max-width: $width-md) {
+      font-size: 0.8rem;
+    }
   }
 }
 
@@ -123,20 +138,32 @@ article {
   h1 {
     font-size: $font-size-1;
     margin-top: 1.5rem;
+    @media screen and (max-width: $width-md) {
+      font-size: 1.5em;
+    }
   }
 
   h2 {
     font-size: $font-size-2;
     margin-top: 1.375rem;
+    @media screen and (max-width: $width-md) {
+      font-size: 1.235em;
+    }
   }
 
   h3 {
     font-size: $font-size-3;
     margin-top: 1.25rem;
+    @media screen and (max-width: $width-md) {
+      font-size: 1.2em;
+    }
   }
 
   h4 {
     margin-top: 1.25rem;
+    @media screen and (max-width: $width-md) {
+      font-size: 1em;
+    }
   }
 
   ul {

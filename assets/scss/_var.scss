@@ -10,18 +10,17 @@ $font-weight-bold: 600;
 $font-weight-semibold: 600;
 $font-weight-normal: 400;
 $font-weight-light: 400;
-$body-font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Arial', 'Helvetica Neue',
-  'Helvetica', 'PingFang SC', 'Hiragino Sans GB', 'Source Han Sans CN', 'Source Han Sans SC',
-  'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif !default;
+$body-font: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
 $mono-font: 'SF Mono', 'Fira Code', 'Consolas', -apple-system, BlinkMacSystemFont, 'SF Pro Text',
   'Segoe UI', 'Arial', 'Helvetica Neue', 'Helvetica', 'PingFang SC', 'Hiragino Sans GB',
   'Source Han Sans CN', 'Source Han Sans SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', monospace !default;
 $title-font: 'Product Sans', sans-serif !default;
 $body-font-size: 16px !default;
 
-$width-md: 768px;
+$width-md: 769px;
+$width-md-sp: 770px;
 
-$light-color-primary: #8aa2d3 !default; // https://irocore.com/aofuji/
+$light-color-primary: #0d61ab !default;
 $light-color-secondary: #8f82bc !default; // https://irocore.com/fujimurasaki/
 $light-color-focus: #3b469b !default; // https://irocore.com/aomurasaki/
 $light-color-mute: #9ea1a3 !default; // https://irocore.com/suzu-iro/

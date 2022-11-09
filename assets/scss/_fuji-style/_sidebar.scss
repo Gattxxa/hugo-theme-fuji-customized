@@ -36,7 +36,7 @@
 
 @media screen and (max-width: $width-md) {
   .sidebar-mobile {
-    width: 70%;
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -52,12 +52,12 @@
       flex-direction: column;
       flex-wrap: nowrap;
       justify-content: space-around;
-      margin: 1.5rem 4.25rem 1.5rem 1.5rem;
+      margin: 1.5rem 1.5rem 1.5rem 1.5rem;
     }
 
     .sidebar-item {
       width: 90%; // max 1 module per line
-      text-align: right;
+      text-align: left;
 
       // space only at not first modules
       margin-top: 1rem;
