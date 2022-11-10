@@ -7,10 +7,6 @@ table:not(.highlight) {
   tr {
     background-color: var(--color-bg);
     border-color: var(--color-font);
-
-    &:nth-child(2n) {
-      background-color: var(--color-divider);
-    }
   }
 }
 
