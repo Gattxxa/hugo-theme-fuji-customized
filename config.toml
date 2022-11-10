@@ -1,4 +1,4 @@
-baseURL = "https://sample.com/"
+baseURL = "https://demo-hugo-theme-fuji-customized.pages.dev/"
 title = "Title"
 
 hasCJKLanguage = true
